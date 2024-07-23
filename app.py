@@ -43,11 +43,12 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title(" 「レシピ」を考えるチャットボット")
-st.image("01_recipe.png")
-st.write("どんな食事を作りたいですか？")
+st.title(" 「料理レシピ」の提案ボット")
+st.image("a83610ab-75e2-4224-b28a-4d170e1416df.jpg")
+st.image("fb454751-935a-4923-951a-7168bd4a7e74.jpg")
+st.write("どんな料理を作りたいですか？")
 
-user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
+user_input = st.text_input("何かメッセージを入力してください。", key="user_input", on_change=communicate)
 
 if st.session_state["messages"]:
     messages = st.session_state["messages"]
