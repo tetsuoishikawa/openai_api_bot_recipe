@@ -44,8 +44,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" 「料理レシピ」の提案ボット")
-st.image("a83610ab-75e2-4224-b28a-4d170e1416df.jpg")
-st.image("fb454751-935a-4923-951a-7168bd4a7e74.jpg")
+st.image("1b14ba3c-68b2-4c6c-8df7-8687464b7c06.jpg")
 st.write("どんな料理を作りたいですか？")
 
 user_input = st.text_input("何かメッセージを入力してください。", key="user_input", on_change=communicate)
